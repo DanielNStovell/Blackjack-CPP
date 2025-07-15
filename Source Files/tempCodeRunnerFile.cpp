@@ -1,0 +1,1 @@
+g++ -std=c++11 "Source Files/main.cpp" "Source Files/glad.c" "Source Files/shaderClass.cpp" -Iinclude -I"Header Files" -I/opt/homebrew/include -L/opt/homebrew/lib -lglfw -framework OpenGL -o compiled_code
